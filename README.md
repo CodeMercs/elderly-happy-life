@@ -1,2 +1,2 @@
 # elderly-happy-life
-R Opan Data
+R Open Data
