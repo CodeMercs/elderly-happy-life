@@ -1,18 +1,21 @@
 library("shiny")
 ui = shinyUI(
 	fluidPage(
-		titlePanel("OwO"),
-		sidebarLayout(
-			sidebarPanel(
+		titlePanel("Elderly City"),
 
+		tabsetPanel(
+			tabPanel("天氣溫度"
 			),
-			mainPanel(
-				tabsetPanel(
-					tabPanel("Plot"
-					)
-				)
+			tabPanel("空氣污染"
+			),
+			tabPanel("進修機構"
+			),
+			tabPanel("公共運輸"
+			),
+			tabPanel("醫院診所"
 			)
 		)
+
 	)
 )
 server = function(input, output) {
